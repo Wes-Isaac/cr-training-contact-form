@@ -325,3 +325,73 @@ li {
 .skills {
   list-style: inside url("../media/svg/circle.svg");
 }
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 4px 24px;
+}
+
+.form-container h1 {
+  width: 327px;
+  height: 363px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  margin: 24px auto;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 38px auto;
+}
+
+.form-control input {
+  width: 327px;
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 12px auto;
+}
+
+.form-control textarea {
+  width: 327px;
+  height: 114px;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 12px;
+  margin: 12px auto;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #091e42;
+  resize: none;
+}
+
+.form-button {
+  border: none;
+  color: #fff;
+  background-color: #ff6b00;
+  padding: 15px;
+  width: 128px;
+  height: 48px;
+}
+
+.form-button:hover {
+  border: #ff6b00;
+  color: #ff6b00;
+  background: #fff5e1;
+}
