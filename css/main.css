@@ -382,9 +382,16 @@ li {
 }
 
 .form-button {
+  border: none;
   color: #fff;
   background-color: #ff6b00;
   padding: 15px;
   width: 128px;
   height: 48px;
+}
+
+.form-button:hover {
+  border: #ff6b00;
+  color: #ff6b00;
+  background: #fff5e1;
 }
